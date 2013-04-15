@@ -76,4 +76,127 @@
     <string-array name="empty_subject_strings">
         <item>no subject</item>
     </string-array>
+<<<<<<< HEAD
+=======
+
+    <!-- **** CYANOGENMOD ADDITIONS START **** -->
+
+    <string-array name="pref_templates_gestures_sensitivity_entries">
+      <item>1 (broadest)</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>6</item>
+      <item>7</item>
+      <item>8</item>
+      <item>9</item>
+      <item>10</item>
+      <item>11</item>
+      <item>12 (strictest)</item>
+    </string-array>
+
+    <string-array name="pref_templates_gestures_sensitivity_values" translatable="false">
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>4</item>
+      <item>5</item>
+      <item>6</item>
+      <item>7</item>
+      <item>8</item>
+      <item>9</item>
+      <item>10</item>
+      <item>11</item>
+      <item>12</item>
+    </string-array>
+
+    <string-array name="pref_mms_notification_vibrate_pattern_entries">
+        <item>Normal</item>
+        <item>Medium Vibrate</item>
+        <item>Long Vibrate</item>
+        <item>Multiple Short</item>
+        <item>Multiple Long</item>
+        <item>@string/pref_title_mms_notification_vibrate_custom</item>
+    </string-array>
+
+    <string-array name="pref_mms_notification_vibrate_pattern_values" translatable="false">
+        <item></item>
+        <item>0,1200</item>
+        <item>0,2500</item>
+        <item>0,300,100,300,100,300,100,300,100,300</item>
+        <item>0,800,200,800,200,800</item>
+        <item>custom</item>
+    </string-array>
+
+    <string-array name="pref_entries_input_type" translatable="false">
+        <item>@string/pref_keyboard_emoji</item>
+        <item>@string/pref_keyboard_new_line</item>
+    </string-array>
+
+    <string-array name="pref_values_input_type" translatable="false">
+        <item>64</item> <!-- InputType.TYPE_TEXT_VARIATION_SHORT_MESSAGE constant  -->
+        <item>80</item> <!-- InputType.TYPE_TEXT_VARIATION_LONG_MESSAGE constant  -->
+    </string-array>
+
+    <string-array name="pref_unicode_stripping_entries" translatable="false">
+        <item>@string/pref_unicode_stripping_leave_intact</item>
+        <item>@string/pref_unicode_stripping_non_encodable</item>
+        <item>@string/pref_unicode_stripping_all</item>
+    </string-array>
+
+    <string-array name="pref_unicode_stripping_values" translatable="false">
+        <item>0</item> <!-- MessagingPreferenceActivity.UNICODE_STRIPPING_LEAVE_INTACT constant -->
+        <item>1</item> <!-- MessagingPreferenceActivity.UNICODE_STRIPPING_NON_ENCODABLE constant -->
+        <item>2</item>
+    </string-array>
+
+    <!-- **** CYANOGENMOD ADDITIONS END **** -->
+
+    <!-- Themes Arrays -->
+    <!-- Layout styles values -->
+    <string-array name="text_conv_layout_styles">
+        <item>@string/layout_default</item>
+        <item>@string/layout_from_left</item>
+        <item>@string/layout_from_right</item>
+    </string-array>
+
+    <string-array name="text_conv_layout_values" translatable="false">
+        <item>**DEFAULT**</item>
+        <item>**LAYOUTFROMLEFT**</item>
+        <item>**LAYOUTFROMRIGHT**</item>
+    </string-array>
+
+    <!-- Bubble styles -->
+    <string-array name="text_bubble_styles">
+        <item>@string/bubble_none</item>
+        <item>@string/bubble</item>
+        <item>@string/hc_bubble</item>
+        <item>@string/circle_bubble</item>
+        <item>@string/frame_arrow</item>
+        <item>@string/frame</item>
+        <item>@string/frame_outer_only</item>
+    </string-array>
+
+    <string-array name="text_bubble_values" translatable="false">
+        <item>**BUBBLENONE**</item>
+        <item>**BUBBLE**</item>
+        <item>**HCBUBBLE**</item>
+        <item>**CIRCLE**</item>
+        <item>**FRAME**</item>
+        <item>**FRAMENOARROW**</item>
+        <item>**FRAMEOUTER**</item>
+    </string-array>
+
+    <!-- widget styles -->
+    <string-array name="widget_layout_styles">
+        <item>@string/widget_layout_dark</item>
+        <item>@string/widget_layout_light</item>
+    </string-array>
+
+    <string-array name="widget_layout_values" translatable="false">
+        <item>**dark**</item>
+        <item>**light**</item>
+    </string-array>
+>>>>>>> b3fd3a6... add themes support to mms
 </resources>
