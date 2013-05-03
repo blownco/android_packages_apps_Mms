@@ -76,8 +76,6 @@
     <string-array name="empty_subject_strings">
         <item>no subject</item>
     </string-array>
-<<<<<<< HEAD
-=======
 
     <!-- **** CYANOGENMOD ADDITIONS START **** -->
 
@@ -198,5 +196,4 @@
         <item>**dark**</item>
         <item>**light**</item>
     </string-array>
->>>>>>> b3fd3a6... add themes support to mms
 </resources>

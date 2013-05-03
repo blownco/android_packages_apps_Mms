@@ -31,19 +31,12 @@
 
     <!-- the background color used for unread conversation -->
     <color name="unread_bgcolor">#ffffffff</color>
-    <color name="read_bgcolor">#ffeeeeee</color>
-
-<<<<<<< HEAD
-    <color name="widget_sender_text_color_read">#555555</color>
-    <color name="widget_sender_text_color_unread">#333333</color>
-    <color name="widget_subject_text_color_read">#777777</color>
-    <color name="widget_subject_text_color_unread">#555555</color>
-=======
-    <color name="widget_sender_text_color_read">#ff555555</color>
+    <color name="read_bgcolor">#ffeeeeee</color><color name="widget_sender_text_color_read">#ff555555</color>
     <color name="widget_sender_text_color_unread">#ff333333</color>
     <color name="widget_subject_text_color_read">#ff777777</color>
     <color name="widget_subject_text_color_unread">#ff555555</color>
-
+    <color name="widget_sender_text_color_read">#555555</color>
+    
     <!-- Color of the text for buttons in the action bar  -->
     <color name="action_bar_button_text_color">#ffffffff</color>
 
@@ -76,5 +69,4 @@
     <color name="widget_read_bgcolor">#7f000000</color>
     <color name="widget_unread_bgcolor_light">#8fbfbfbf</color>
     <color name="widget_read_bgcolor_light">#7fffffff</color>
->>>>>>> b3fd3a6... add themes support to mms
 </resources>

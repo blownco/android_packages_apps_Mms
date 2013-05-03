@@ -90,32 +90,11 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-<<<<<<< HEAD
-                <ImageButton
-                    android:id="@+id/quick_emoji_button_mms"
-                    style="?android:attr/borderlessButtonStyle"
-                    android:src="@drawable/emoji_btn"
-                    android:layout_gravity="bottom"
-                    android:layout_width="40dip"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="12dip"
-                    android:paddingRight="12dip"
-                    android:visibility="gone"
-                />
-
-                <EditText
-                    android:textColor="@color/compose_message_edit_text"
-                    android:id="@+id/embedded_text_editor"
-                    android:layout_width="0dip"
-                    android:layout_gravity="bottom"
-                    android:layout_height="wrap_content"
-=======
-                <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-                    android:id="@+id/attachment_editor_scroll_view"
->>>>>>> b3fd3a6... add themes support to mms
-                    android:layout_weight="1.0"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dip">
+	        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/attachment_editor_scroll_view"
+                      android:layout_weight="1.0"
+                      android:layout_width="match_parent"
+                      android:layout_height="0dip">
 
                   <view class="com.android.mms.ui.AttachmentEditor"
                       android:id="@+id/attachment_editor"
